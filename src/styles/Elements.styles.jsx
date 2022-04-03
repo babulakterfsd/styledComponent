@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // all the elements style will be written here as named export
 
 export const TitleContainer = styled.h1`
-    font-size: 24px;
+    font-size: 30px;
     color: green;
     text-decoration: underline;
     margin-bottom: 24px;
