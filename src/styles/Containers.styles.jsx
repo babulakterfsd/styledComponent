@@ -1,6 +1,6 @@
-import Styled from 'styled-components';
+import styled from 'styled-components';
 
-export const Container = Styled.div`
+export const Container = styled.div`
     height: 50vh;
     width: 50vw;
     box-shadow: 2px 12px 8px #ccc;
@@ -8,10 +8,10 @@ export const Container = Styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
 `;
 
-export const LinkContainer = Styled.div`
+export const LinkContainer = styled.div`
     width: inherit;
     display: flex;
     justify-content: space-around;
