@@ -4,7 +4,8 @@ import CustomText from '../components/CustomText';
 // eslint-disable-next-line import/prefer-default-export
 export const StyledCustomText = styled(CustomText)`
     font-size: 18px;
-    color: ${(props) => props.color};
+    color: ${(props) =>
+        props.color}; //ei color Customtext component e className er maddhome recieve korte hobe, noile color paabe na
     :hover {
         color: #465c4a;
         cursor: pointer;

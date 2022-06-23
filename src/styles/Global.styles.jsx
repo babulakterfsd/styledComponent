@@ -9,3 +9,5 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle;
+
+// global style create korte chaile createGlobalStyle er maddhome korte hoy
