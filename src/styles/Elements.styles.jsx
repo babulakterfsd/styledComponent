@@ -12,7 +12,8 @@ export const TitleContainer = styled.h1`
 export const NormalTextContainer = styled.p`
     font-weight: bold;
     padding: 24px;
-    background: ${(props) => props.bgcolor};
+    background: ${(props) =>
+        props.bgcolor}; // props gula amra evabe pete pari styled component e. r etar ei super power er maddhome amra component ke call korar somoy dynamic vaabe style pathate pari
     color: ${(props) => props.color};
     margin-bottom: 24px;
 `;
